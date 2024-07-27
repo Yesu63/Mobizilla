@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bungee+Spice&family=Fredoka:wght@300..700&family=Lalezar&family=Noto+Sans+Soyombo&family=Protest+Guerrilla&family=Reem+Kufi+Fun:wght@400..700&family=Rubik+Gemstones&family=Rubik+Lines&family=Rubik+Moonrocks&family=Rubik+Storm&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&family=Sixtyfour&family=Stint+Ultra+Expanded&family=Tai+Heritage+Pro:wght@400;700&family=Tilt+Warp&family=Trade+Winds&family=Zen+Dots&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    top: 50px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* background-color:#b8b8c7; */
+}
+.dropdown-content a {
+    color: beige;
+    /* color: black; */
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.815);
+    outline: none;
+    border: 0;
+    width: 120px;
+    margin-left: 10px;
+}
+.userName{
+    padding-right: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.profile li{
+    color: black;
+}
+.badge{
+    position:absolute;
+    height: 15px;
+    width: 15px;
+    top: -10px;
+    right: -13px;
+    background-color: rgba(212, 134, 134, 0.733);
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 2px;
+}
+.shop{
+    position: relative;
+    font-size: 25px;
+}
+.badgeMob{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 0px;
+    right: 120px;
+    background-color: rgba(212, 134, 134, 0.733);
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 2px;
+}
+.shopMob{
+    position: relative;
+    font-size: 25px;
+}
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.815);
+    /* background-image: linear-gradient(to top, rgba(83, 155, 196, 0.95),gray); */
+    display: flex;
+    justify-content:space-between;
+    position:fixed;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+}
+.logoImg{
+   margin-top: 5px;
+    height: 60px;
+    width: 70px;
+}
+.logoText{
+    font-family: "Reem Kufi Fun", sans-serif;
+    padding: 15px 0;
+   font-weight: bold ;
+   font-size: 30px;
+   color: antiquewhite;
+   margin-left: -10px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.home, .login ,.contactus , .signup , .return , .dropbtn{
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.icon{
+    display: none;
+    
+}
+
+#welcomeMobileBlock ul li{
+    color: aliceblue;
+    font-size: 20px;
+}
+#welcomeBlock{
+   width: 200px;
+    position: absolute;
+    top: 70px;
+    right: 6px;
+    border-radius: 5px;
+    background-color: rgb(46, 88, 146);
+    padding: 10px 20px;
+}
+.log{
+    cursor: pointer;
+}
+#welcomeBlock ul li{
+   letter-spacing: 1px;
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#welcomeBlock a{
+    text-decoration: none;
+}
+
+@media screen and (max-width : 768px) {
+    
+    .dropdown-content {
+        top: 50px;
+        display: none;
+        position: absolute;
+        min-width: 180px;
+        z-index: 1;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .dropdown-content a {
+        color: beige;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        outline: none;
+        border: 0;
+        width: 120px;
+        font-size: 16px;
+        margin-left: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .list{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        font-size: 20px;
+       background: none;
+       cursor: pointer;
+        color: rgb(250, 244, 244);
+        outline: none;
+        border: 0;
+        top: 25px;
+        right: 10px;
+        height: 30px;
+        padding: 5px;
+        
+    }
+    .home, .login ,.contactus , .signup , .return , .dropbtn{
+        color: aliceblue;
+    }
+    
+    .mobileList{
+        display: flex;
+        position: absolute;
+        font-size: 10px;
+        display: block;
+        left: 0;
+        top: 0px;
+        width: 180px;
+        border-right: 2px solid rgb(234, 233, 241);
+        transition: all 0.5s ease;
+        background-color: rgba(0, 0, 0, 0.815);
+        /* background-image: linear-gradient(to bottom,rgb(97, 143, 148),rgb(97, 83, 83)); */
+        height: 100vh;
+        padding-top: 20px;
+    }
+    .mobileList li , .mobileList .dropbtn {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.21);
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+    
+}

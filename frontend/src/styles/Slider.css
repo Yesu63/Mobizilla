@@ -1,0 +1,38 @@
+.sliderImage{
+    height: 200px;
+    width: 100%;
+}
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 15px;
+    z-index: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+    
+    opacity: 1;
+    cursor: pointer;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+    display: none;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    display: none;
+}
+
+.react-multiple-carousel__arrow--left {
+    left:10px;
+}
+@media screen and (min-width:481px) {
+    .sliderImage{
+        height: 300px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px){
+    .sliderImage{
+        height: 400px;
+        width: 100%;
+    }
+}

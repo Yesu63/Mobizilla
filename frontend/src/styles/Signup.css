@@ -1,0 +1,77 @@
+
+.formContainer{
+    display: grid;
+     padding: 0px 50px;
+     margin-top: 5vh;
+     justify-content: center;
+     
+ }
+ .fields{
+    /*  margin-top: 30px; */
+     border: 1px solid;
+     width: 100%;
+     padding: 5px 10px;
+    /*  margin-left: 5%; */
+ }
+ .fields h1{
+     text-align: center;
+     padding: 15px;
+     margin-bottom: 20px;
+ 
+ }
+ input{
+     padding: 5px;
+     margin-bottom: 20px;
+     margin-left: 10px;
+     width: 90%;
+     height: 40px;
+     border-radius: 5px;
+     
+ }
+ 
+ .signupbtn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+ }
+ .signin{
+     color: rgba(211, 209, 209, 0.58);
+     font-size: 18px;
+     text-decoration: none;
+     border-radius: 10px;
+ }
+ .signin:hover{
+    border: 1px solid rgba(180, 183, 102, 0.594);
+     padding: 6px;
+     background-color: black;
+     border-radius: 5px;
+     color: beige;
+ }
+ .fields p{
+     margin-top: 20px;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ .signupbtn{
+    border-radius: 5px;
+   padding: 5px 20px;
+   margin-left: 23vw;
+ }
+ #result{
+    color: green;
+ }
+ @media screen and (min-width:481px){
+    .signupbtn{
+        padding: 5px 20px;
+        margin-left: 13vw;
+      }
+      
+ }
+ @media screen and (min-width:769px){
+    .signupbtn{
+        padding: 5px 20px;
+        margin-left: 20vw;
+      }
+ }
+ 
+ 

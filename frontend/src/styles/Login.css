@@ -1,0 +1,103 @@
+
+.loginContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(95, 158, 160, 0.094);
+}
+#result{
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.fields{
+     /* background-color: cadetblue; */
+     /* background-color: rgb(105, 143, 153); */
+     background-color: rgba(0, 0, 0, 0.728);
+     border: 1px solid;
+     width: 300px;
+     padding: 5px 10px;
+     border-radius: 10px;
+ }
+ .fields h1{
+     text-align: center;
+     padding: 15px;
+     margin-bottom: 20px;
+     color: beige;
+ }
+ input{
+     padding: 5px;
+     margin-bottom: 20px;
+     margin-left: 10px;
+     width: 90%;
+     height: 40px;
+     border-radius: 5px;
+ }
+ .needAct{
+    color: rgb(246, 246, 251);
+    font-weight: bold;
+ }
+ .loginbtn{
+     padding: 7px 20px;
+     margin-left:35%;
+     border-radius: 10px;
+ }
+ 
+ .signup{
+     color: rgba(249, 240, 240, 0.459);
+     font-size: 18px;
+ }
+ .loginbtn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+ }
+ .signup:hover{
+     border: 1px solid rgba(180, 183, 102, 0.594);
+     padding: 6px;
+     border-radius: 5px;
+     color: bisque;
+     background-color: black;
+ }
+ .fields p{
+     margin-top: 20px;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+
+
+ @media screen and (min-width:769px){
+   
+    .loginContainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+     .formContainer{
+          width: 100%;
+         border-radius: 10px;
+         }
+         .loginbtn{
+             height: 40px;
+             padding: 5px 40px;
+             margin-left: 40%;
+         }
+         .fields{
+            width: 50vw;
+         }
+         .fields input{
+          margin-left: 80px;
+             width:70%;
+             height: 50px;
+             padding:15px;
+             
+             border-radius: 10px;
+            border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+            border-left: 2px solid rgba(199, 199, 199, 0.5);
+             }
+             
+         
+ }  

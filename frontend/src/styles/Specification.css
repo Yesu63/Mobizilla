@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.bothContainer{
+    display: grid;
+    padding-top: 70px;
+    font-family: "PT Serif", serif; 
+    background-color: beige;
+}
+.slide{
+    
+    height: 350px;
+    width: 300px;
+}
+
+.specImage{
+    height: 300px;
+    width: 100%;
+    margin-left: 5%;
+}
+.rightContainer{
+    order: 2;
+    padding: 0 10px;
+}
+.leftContainer{
+    padding: 5px 10px;
+}
+.offPrice{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.off{
+    padding-top: 7px;
+    font-size: 18px;
+}
+
+.allSpecs{
+    display: grid;
+    font-family: "Platypi", serif; 
+}
+.variant{
+    border: 2px solid rgb(30, 110, 116);
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    padding: 3px;
+}
+.storage{
+    font-weight: 400px;
+    color: gray;
+}
+.productDescribtion{
+    font-family: "Reem Kufi Fun", sans-serif;
+    padding: 10px 0;
+    padding-bottom: 0;
+    font-weight: 550;
+    color: rgb(86, 86, 86);
+    text-align: justify;
+}
+.allSpecs ul{
+    padding-left: 20px;
+    line-height: 25px;
+}
+.allSpecs .heading{
+    font-weight: bold;
+    padding: 0;
+    color: yellowgreen;
+}
+td:nth-child(1){
+    font-weight: 520;
+    font-size: 16px;
+    color: gray;
+}
+
+.highlights table tbody tr{
+    line-height: 20px;
+}
+.addToCart, .buyNow{
+   display: none;
+}
+.addToCartMobile, .buyNowMobile{
+    margin-top: 5px;
+    width: 49%;
+    padding: 15px;
+    background-color: rgb(125, 147, 164);
+    margin-bottom: 20px;
+    /* background-color: rgb(146, 179, 207); */
+    cursor: pointer;
+}
+.addToCartMobile{
+    margin-right: 5px;
+}
+
+@media  screen and (min-width:768px){
+    .allSpecs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .slide{
+    
+        height: 350px;
+        width: 300px;
+    }
+    
+    .specImage{
+        height: 300px;
+        width: 100%;
+    }
+    .leftContainer{
+        padding-left: 150px;
+    }
+
+}
+
+@media screen and (min-width:992px){
+.bothContainer{
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+.specImage{
+    height: 75vh;
+    width: 100%;
+    margin-left: 0;
+}
+.rightContainer{
+    padding:  20px;
+}
+.slide{
+    
+    height: 500px;
+    width: 500px;
+}
+.sImage{
+height: 100px;
+width: 100px;
+}  
+.offPrice{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.off{
+    padding-top: 7px;
+    font-size: 18px;
+}
+.allSpecs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+    padding: 0px 20px 20px 0;
+}
+.variant{
+    border: 2px solid rgb(30, 110, 116);
+    cursor: pointer;
+    color: black;
+}
+.storage{
+    font-weight: 400px;
+    color: gray;
+}
+.productDescribtion{
+    font-family: "Reem Kufi Fun", sans-serif;
+    padding: 10px 0;
+    padding-bottom: 0;
+    font-weight: 550;
+    color: rgb(86, 86, 86);
+    text-align: justify;
+}
+.allSpecs ul{
+    padding-left: 20px;
+    line-height: 25px;
+}
+.allSpecs .heading{
+    font-weight: bold;
+    padding: 0;
+    color: yellowgreen;
+}
+td:nth-child(1){
+    font-weight: 520;
+    font-size: 16px;
+    color: gray;
+}
+
+.highlights table tr{
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.addToCart, .buyNow{
+    display: inline-block;
+    margin-top: 5px;
+    width: 49%;
+    padding: 15px;
+    background-color: rgb(125, 147, 164);
+    /* background-color: rgb(146, 179, 207); */
+    cursor: pointer;
+}
+.addToCart{
+   margin-right: 5px;
+}
+.addToCartMobile, .buyNowMobile{
+    display: none;
+}
+.leftContainer{
+    padding: 5px 10px;
+}
+
+}

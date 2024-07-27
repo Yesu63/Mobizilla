@@ -1,0 +1,161 @@
+
+.profileContainer{
+    padding-top: 100px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 0.4fr 0.5fr;
+   
+   
+}
+.profileLeft{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.profImage{
+    margin-left: 45px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.upload{
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #191647;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 15px 0 10px 22%;
+        cursor: pointer;
+        transition-duration:0.4s;
+        border-radius: 5px;
+}
+.usrName{
+    margin-top: 20px;
+    font-weight: bold;
+    width: 170px;
+    margin-left: 20%;
+   
+}
+.detailsRight{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profileRight{
+    margin-top: 20px;
+    border: 1px solid rgb(49, 122, 156);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(52, 138, 153, 0.671);
+}
+#fileUpload{
+    display: none;
+}
+.personalDet p{
+    padding: 10px 0;
+}
+.full{
+    font-weight: bold;
+}
+.fullname{
+    color: rgb(220, 70, 70);
+    font-weight: bold;
+}
+
+.addrsDet h2,.personalDet h2{
+    background-color: #1916476b;
+}
+.delAddrs{
+    color: #191647;
+    font-weight: bold;
+   
+}
+.addrs{
+   margin-left: 20px;
+   margin-top: 10px;
+    padding: 10px;
+    max-width: 300px;
+    color: gray;
+    font-weight: 600;
+    border: 1px solid rgb(111, 129, 145);
+}
+.msg{
+    color: gray;
+    margin-left: 10px;
+}
+.phnNo{
+    color: gray;
+    margin-left: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.qryBox{
+    border: 1px solid;
+    max-width: 300px;
+    padding: 10px;
+    border-color: rgb(111, 129, 145);
+}
+.orders{
+    margin : 20px 15%;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(103, 111, 167, 0.219);
+}
+.orders:hover{
+    background-color: black;
+    color: white;
+}
+.detailsAddrs{
+    padding: 10px;
+}
+.addrsDet{
+    margin-bottom: 20px;
+}
+.addrsDet p{
+    padding: 10px 0;
+}
+.detailsAddrs h2{
+    text-align: center;
+}
+
+@media screen and (max-width : 576px){
+    .profileContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .profileLeft{
+        max-width: 350px;
+        padding: 10px;
+    }
+    .profImage{
+        height: 150px;
+        width: 150px;
+    }
+    .profileRight{
+        margin-top: 20px;
+        margin-right: 20px;
+        padding-bottom: 10px;
+    }
+    .orders{
+        margin : 20px 8%;
+        padding: 7px 20px;
+    }
+    
+}
+
+@media screen and (min-width : 577px) and (max-width : 992px){
+    
+
+    .profileContainer{
+       
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr;
+   
+    }
+    
+}
